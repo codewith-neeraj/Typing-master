@@ -1,4 +1,5 @@
 # Typing-master
 This is typing master.
 <br>
-Author : Neeraj Kumar
+Author : Neeraj Kumar 
+Friend : Mohit
