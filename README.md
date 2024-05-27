@@ -27,10 +27,6 @@ Welcome to Typing Master, a typing practice application designed to help you imp
 
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Author
 
 - **Neeraj Kumar** - [GitHub](https://github.com/codewith-Neeraj)
