@@ -122,26 +122,17 @@ function startTimer(duration) {
 
 function loadParagraph() {
     const typingText = document.querySelector(".typing-text p");
-    typingText.innerHTML = ""; // Clear any existing content
-    paragraphs.forEach(paragraph => {
-        let stringWithSpaces = paragraph.replace(/\u00A0/g, ' '); // Replace &nbsp; with regular spaces
-        let words = stringWithSpaces.split(" ");
-        words.forEach((word, index) => {
-            let div = document.createElement('div');
-            word.split("").forEach((char, charIndex) => {
-                let span = document.createElement('span');
-                span.textContent = char;
-                div.appendChild(span);
-            });
-            typingText.appendChild(div);
-            if (index < words.length - 1) {
-                typingText.innerHTML += " "; // Add space between words
-            }
-        });
+    const ranIndex = Math.floor(Math.random() * paragraphs.length);
+    typingText.innerHTML = "";
+    paragraphs[ranIndex].split("").forEach(char => {
+        let span = `<span>${char}</span>`;
+        typingText.innerHTML += span;
     });
-    // Set focus on input field after loading paragraphs
+    typingText.querySelectorAll("span")[0].classList.add("active");
     inpField.focus();
+    var charIndex = 0;
 }
+
 
 
 function initTyping() {

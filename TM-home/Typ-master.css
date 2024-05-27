@@ -67,7 +67,6 @@ li::marker {
 #navOptionThree,
 #navOptionFour {
     display: flex;
-    margin: 1px 0px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -282,17 +281,10 @@ li::marker {
     scrollbar-width: none;
 }
 
+
 .typing-text p {
-    display: flex;
-    flex-wrap: wrap; /* Ensures words wrap onto the next line */
-    width: 100%;
     letter-spacing: 1px;
     word-break: break-all;
-}
-
-.typing-text p div {
-    display: inline-block; /* Ensures each word is wrapped in a div */
-    margin-right: 5px; /* Adjust spacing between words */
 }
 
 .typing-text p span {
