@@ -10,12 +10,6 @@ Welcome to Typing Master, a typing practice application designed to help you imp
 - **Speed Tests:** Take timed typing tests to challenge yourself and track your speed improvements.
 - **User-Friendly Interface:** Clean and intuitive interface designed for ease of use.
 
-## Installation
-
-1. Clone this repository.
-2. Install dependencies by running `npm install`.
-3. Start the application using `npm start`.
-
 ## Usage
 
 1. Choose a typing lesson or create your own custom lesson.
