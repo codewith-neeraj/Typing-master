@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    list-style-position: unset;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    float: left;
+    background-color: rgb(186, 212, 241);
+    width: 90px;
+    height: 100%;
+    position: absolute;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    box-shadow: 0px 0px 1px black;
+}
+
+li::marker {
+    display: none;
+}
+
+#navOptionOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+#mainImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+    width: 18px;
+    padding: 1px;
+    border-radius: 50%;
+    border: 1.5px solid rgb(3, 65, 73);
+}
+
+#navLogo {
+    width: 90%;
+    height: 90%;
+}
+
+#mainText {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    color: rgb(20, 121, 236);
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-size: 10px;
+}
+
+#navOptionTwo,
+#navOptionThree,
+#navOptionFour {
+    display: flex;
+    margin: 1px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 100%;
+}
+
+#navOptionTwo a,
+#navOptionThree a,
+#navOptionFour a {
+    font-size: 10px;
+}
+
+#optionOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 16px;
+    width: 78px;
+    color: white;
+    background-color: rgb(20, 121, 236);
+    border: 1px rgb(20, 121, 236) solid;
+
+}
+
+#navOptionFive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+#navOptionFive span {
+    font-size: 8px;
+    font-family: "Caveat", cursive;
+    color: rgb(66, 64, 64);
+}
+
+#firstContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#fcMain {
+    background-color: rgba(204, 235, 240, 0.445);
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px black;
+    width: 550px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+#fcHead {
+    width: 100%;
+    text-align: center;
+    color: rgb(20, 121, 236);
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 10px 0px;
+}
+
+#fcHead h2 {
+    font-size: 15px;
+    color: rgb(0, 194, 228);
+}
+
+.wrapper {
+    width: 96%;
+    padding: 2%;
+    text-align: center;
+    height: 250px;
+}
+
+.wrapper h1 {
+    color: black;
+}
+
+.wrapper h1+p {
+    color: #3498db;
+}
+
+.scoreWrap {
+    float: left;
+}
+
+.timeWrap {
+    float: right;
+}
+
+.outerWrap:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.bg {
+    background-color: #1c5fc4;
+    border-radius: 1px;
+}
+
+button {
+    border: none;
+    background-color: #1c5fc4;
+    box-shadow: 0px 5px 0px 0px gray;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+button:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+.scoreWrap p,
+.scoreWrap span,
+.timeWrap p,
+.timeWrap span {
+    font-size: 30px;
+    color: #1c5fc4;
+}
+
+.wordsWrap {
+    margin-top: 50px;
+}
+
+.words span {
+    font-family: "Caveat", cursive;
+    font-size: 45px;
+    letter-spacing: 1px;
+    color: black;
+}

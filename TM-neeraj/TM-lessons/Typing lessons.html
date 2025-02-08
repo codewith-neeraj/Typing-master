@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TM 01 -> Lessons</title>
+    <link rel="icon" href="https://i.postimg.cc/2SWfvMPt/Typing-master-01.png" type="image/x-icon">
+    <link rel="stylesheet" href="Typ-lessons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+    <nav>
+        <li id="navbar">
+            <ul class="navOptions" id="navOptionOne">
+                <div id="mainImg">
+                    <img id="navLogo" src="./../images/typing-master-01.png">
+                </div>
+                <div id="mainText">
+                    <span>
+                        Typing-master-01
+                    </span>
+                </div>
+            </ul>
+            <ul class="navOptions" id="navOptionTwo">
+                <a href="./../index.html">
+                    <div id="optionOne">
+                        <span>
+                            Typing Test &nbsp; »
+                        </span>
+                    </div>
+                </a>
+            </ul>
+            <ul class="navOptions" id="navOptionThree">
+                <a href="./Typing lessons.html">
+                    <div id="optionOne">
+                        <span>
+                            Typing Lessons »
+                        </span>
+                    </div>
+                </a>
+            </ul>
+            <ul class="navOptions" id="navOptionFour">
+                <a href="../TM-games/typing games.html">
+                    <div id="optionOne">
+                        <span>
+                            Typing Game - I »
+                        </span>
+                    </div>
+                </a>
+            </ul>
+            <ul class="navOptions" id="navOptionFive">
+                <span>
+                    More Options will coming soon...
+                </span>
+            </ul>
+        </li>
+    </nav>
+    <section id="firstContainer">
+        <div id="fcMain">
+            <div id="fcHead">
+                <h1>
+                    <span>
+                        Typing Master-01
+                    </span>
+                </h1>
+                <h2>
+                    <span>
+                        Practice daily to grow your Typing speed...
+                    </span>
+                </h2>
+            </div>
+            <div id="fcOptions">
+                <div id="optContainer">
+                    <div id="formRowOne">
+                        <div id="icon">
+                            <span style="color:rgb(20, 121, 236); font-size: 18px; float:left">Select Lesson</span>
+                        </div>
+                        <div id="Options">
+                            <select name="selectTest" id="selectOption" required>
+                                <optgroup label="Basic Typing">
+                                    <option value="top" class="ontions" id="optionOne">
+                                        The Top Row -> Basic
+                                    </option>
+                                    <option value="home" class="ontions" id="optionTwo" selected>
+                                        The Home Row -> Basic
+                                    </option>
+                                    <option value="bottom" class="ontions" id="optionThree">
+                                        The Bottom Row -> Basic
+                                    </option>
+                                    <option value="numbric" class="ontions" id="optionFour">
+                                        Numeric Row -> Basic
+                                    </option>
+                                </optgroup>
+                                <optgroup label="Advanced Typing">
+                                    <option value="topA" class="ontionsA" id="optionOneA">
+                                        The Top Row -> Advance
+                                    </option>
+                                    <option value="homeA" class="ontionsA" id="optionTwoA">
+                                        The Home Row -> Advance
+                                    </option>
+                                    <option value="bottomA" class="ontionsA" id="optionThreeA">
+                                        The Bottom Row -> Advance
+                                    </option>
+                                    <option value="numbricA" class="ontionsA" id="optionFourA">
+                                        Numeric Row -> Advance
+                                    </option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="formRowTwo">
+                        <button id="startTest">
+                            Start Test
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="secondContainer" style="display: none;">
+        <div id="textArea">
+            <div class="wrapper">
+                <input type="text" class="input-field">
+                <div class="content-box">
+                    <div class="typing-text">
+                        <p></p>
+                    </div>
+                    <div class="content">
+                        <ul class="result-details">
+                            <li class="time">
+                                <p>Time Left:</p>
+                                <span>05:00</span>
+                            </li>
+                            <li class="mistake">
+                                <p>Mistakes:</p>
+                                <span>0</span>
+                            </li>
+                            <li class="wpm">
+                                <p>WPM:</p>
+                                <span>0</span>
+                            </li>
+                            <li class="cpm">
+                                <p>CPM:</p>
+                                <span>0</span>
+                            </li>
+                        </ul>
+                        <button>Try Again</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer-banner">
+        Made By
+        <b>
+            Neeraj Kumar
+        </b>
+        <div id="ins">
+            Bharat Computer Education Institute
+        </div id="ins">
+    </div>
+
+
+
+    <script src="paragraph.js">
+    </script>
+    <script src="script.js">
+    </script>
+
+
+
+</body>
+
+</html>
